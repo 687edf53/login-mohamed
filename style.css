@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+body {
+  background: linear-gradient(to left,#f59,#fa0);
+}
+.continer {
+  text-align: center;
+  margin:auto;
+  margin-top: 13%;
+  width: 230px;
+  height: 130px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.28);
+  padding-top: 20px;
+  position: relative;
+}
+h1 {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 25px;
+}
+input[type="submit"] {
+  margin-top: -35px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.31);
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.28);
+  border: none;
+  outline: none;
+  padding: 3px 5px;
+}
+.continer input:nth-child(1) {
+  margin-bottom: 20px;
+}
+.continer input[type="email"],input[type="password"] {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 5px 5px;
+  border: none;
+  outline: none;
+  background-color: rgba(0,0,0,0.300);
+  width: 200px;
+  height: 15px;
+}
+
+.continer input[type="text"] {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 5px 5px;
+  border: none;
+  outline: none;
+  background-color: rgba(0,0,0,0.300);
+  width: 200px;
+  height: 15px;
+}
+::placeholder {
+  color: rgb(255, 152, 88);
+  user-select: none;
+}
+
+::selection {
+  background-color: rgba(0, 0, 0, 0.313);
+}
+
+.boxsh {
+  box-shadow: none;
+}
+.eye {
+  position: absolute;
+  top: 44.7%;
+  right: 7.8%;
+}
+.eye-slash {
+  position: absolute;
+  top: 44.7%;
+  right: 7.8%;
+  display: none;
+}
+
+@media (max-width: 270px) { 
+  .continer {
+  text-align: center;
+  margin:auto;
+  margin-top: 17%;
+  width: 180px;
+  height: 150px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.28);
+  padding-top: 20px;
+  position: relative;
+  }
+  .continer input[type="email"],input[type="password"] {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 5px 5px;
+  border: none;
+  outline: none;
+  background-color: rgba(0,0,0,0.300);
+  width: 150px;
+  height: 15px;
+}
+.continer input[type="text"] {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 5px 5px;
+  border: none;
+  outline: none;
+  background-color: rgba(0,0,0,0.300);
+  width: 200px;
+  height: 15px;
+}
+.eye {
+  position: absolute;
+  top: 39.7%;
+  right: 8.8%;
+}
+.eye-slash {
+  position: absolute;
+  top: 39.7%;
+  right: 8.8%;
+  display: none;
+}
+
+}
+
+@media (max-width: 506px) { 
+  .continer {
+    margin-top: 50%;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 576px) { 
+
+}
