@@ -111,6 +111,7 @@ input[type="submit"] {
   background-color: rgba(0,0,0,0.300);
   width: 200px;
   height: 15px;
+  color: #fff;
 }
 .eye {
   position: absolute;
